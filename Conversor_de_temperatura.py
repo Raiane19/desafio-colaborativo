@@ -5,7 +5,7 @@
 
 
 # ============================================
-# INTEGRANTE 1
+# Raiane
 # Celsius ↔ Fahrenheit
 # ============================================
 
@@ -18,7 +18,7 @@ def fahrenheit_para_celsius(fahrenheit):
 
 
 # ============================================
-# INTEGRANTE 2
+# Arthur
 # Celsius ↔ Kelvin
 # ============================================
 
@@ -31,7 +31,7 @@ def kelvin_para_celsius(kelvin):
 
 
 # ============================================
-# INTEGRANTE 3
+# Nilton
 # Fahrenheit ↔ Kelvin
 # ============================================
 
@@ -64,7 +64,7 @@ while True:
     opcao = input("\nEscolha uma opção: ")
 
     # ========================================
-    # INTEGRANTE 1
+    # gggggg
     # ========================================
 
     if opcao == "1":
