@@ -163,7 +163,7 @@ O projeto foi desenvolvido de maneira colaborativa utilizando **Git e GitHub**.
 
 Cada integrante ficou responsável por um conjunto de conversões:
 
-### 👤 Integrante 1
+### 👤 Raiane dos Santos
 
 **Celsius ↔ Fahrenheit**
 
@@ -174,7 +174,7 @@ celsius_para_fahrenheit()
 fahrenheit_para_celsius()
 ```
 
-### 👤 Integrante 2
+### 👤 Nilton Alves
 
 **Celsius ↔ Kelvin**
 
@@ -185,7 +185,7 @@ celsius_para_kelvin()
 kelvin_para_celsius()
 ```
 
-### 👤 Integrante 3
+### 👤 Arthur Ribeiro
 
 **Fahrenheit ↔ Kelvin**
 
