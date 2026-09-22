@@ -5,7 +5,7 @@
 
 
 # ============================================
-# NILTON ALVES
+# Raiane
 # Celsius ↔ Fahrenheit
 # ============================================
 
@@ -18,7 +18,7 @@ def fahrenheit_para_celsius(fahrenheit):
 
 
 # ============================================
-# ARTHUR RIBEIRO
+# Nilton
 # Celsius ↔ Kelvin
 # ============================================
 
@@ -31,7 +31,7 @@ def kelvin_para_celsius(kelvin):
 
 
 # ============================================
-# RAIANE DOS SANTOS
+# Arthur
 # Fahrenheit ↔ Kelvin
 # ============================================
 
@@ -64,7 +64,9 @@ while True:
     opcao = input("\nEscolha uma opção: ")
 
     # ========================================
-    # NILTON ALVES
+
+    # Raiane
+
     # ========================================
 
     if opcao == "1":
@@ -86,7 +88,7 @@ while True:
 
 
     # ========================================
-    # ARTHUR RIBEIRO
+    # Nilton
     # ========================================
 
     elif opcao == "3":
@@ -108,7 +110,7 @@ while True:
 
 
     # ========================================
-    # RAIANE DOS SANTOS
+    # Arthur
     # ========================================
 
     elif opcao == "5":
