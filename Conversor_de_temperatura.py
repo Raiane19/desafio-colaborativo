@@ -22,13 +22,12 @@ def fahrenheit_para_celsius(fahrenheit):
 # Celsius ↔ Kelvin
 # ============================================
 
-# O Integrante 2 deve adicionar aqui:
-#
-# def celsius_para_kelvin(celsius):
-#     ...
-#
-# def kelvin_para_celsius(kelvin):
-#     ...
+def celsius_para_kelvin(celsius):
+    return celsius + 273.15
+
+
+def kelvin_para_celsius(kelvin):
+    return kelvin - 273.15
 
 
 # ============================================
@@ -92,14 +91,20 @@ while True:
 
     elif opcao == "3":
 
-        # Integrante 2 deve implementar
-        print("Conversão Celsius → Kelvin ainda não implementada.")
+        celsius = float(input("Digite a temperatura em Celsius: "))
+
+        resultado = celsius_para_kelvin(celsius)
+
+        print(f"Resultado: {resultado:.2f} K")
 
 
     elif opcao == "4":
 
-        # Integrante 2 deve implementar
-        print("Conversão Kelvin → Celsius ainda não implementada.")
+        kelvin = float(input("Digite a temperatura em Kelvin: "))
+
+        resultado = kelvin_para_celsius(kelvin)
+
+        print(f"Resultado: {resultado:.2f} °C")
 
 
     # ========================================
@@ -107,14 +112,20 @@ while True:
     # ========================================
 
     elif opcao == "5":
+
         fahrenheit = float(input("Digite a temperatura em Fahrenheit: "))
+
         resultado = fahrenheit_para_kelvin(fahrenheit)
+
         print(f"Resultado: {resultado:.2f} K")
 
 
     elif opcao == "6":
+
         kelvin = float(input("Digite a temperatura em Kelvin: "))
+
         resultado = kelvin_para_fahrenheit(kelvin)
+
         print(f"Resultado: {resultado:.2f} °F")
 
 
